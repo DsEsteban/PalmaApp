@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        
+        <!-- Include jQuery Mobile stylesheets -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!-- Include the jQuery library -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <!-- Include the jQuery Mobile library -->
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" class="main" style="background-image: url("img/icon.png");">
+
+            <div data-role="panel" id="myPanel" data-display="overlay"> 
+                <h2>Nombre de usuario</h2>
+                <a href=""><span></span><p class="ops">Cont&aacutectanos</p></a>
+                <a href=""><span></span><p class="ops">Configuraci&oacuten</p></a>
+                <a href=""><span></span><p class="ops">Ayuda</p></a>
+              </div>
+            <div class="ui-grid-solo header green" data-role="header">
+                <!--<button id="btnMenuSup" class="">
+                    <a href="#" class="ui-icon-bars ui-btn-icon-notext"></a
+                ></button>
+                <a href="#" data-icon="search"></a>-->
+                <!--<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">
+                    <span class="ui-icon-bars ui-btn-icon-notext"></span>
+
+                </a>-->    
+                <a href="#myPanel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext">Search</a>
+
+
+
+                <h1 class="green">Palma</h1>
+
+                <!--<button class="" id="">
+                    <span class="badge"></span>
+                </button>-->
+                <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-comment ui-btn-icon-notext">Search</a>
+
+                <!--<button id="btnAnuncios">-->
+                    
+                <!--</button>-->
+            </div>
+
+
+            <div data-role="main" class="ui-content">
+            </br></br></br></br></br></br>
+                <div class="ui-grid-a" >
+                        <div class="ui-block-a" style="width: 25%;">
+                            
+                        </div>
+                        <div class="ui-block-b" style="width: 50%; text-align:center">
+                            <img  id="logo" src="img/icon.png"></br>
+                            <a href="reporte.html" class="ui-btn ui-btn-inline green">Reportes</a>
+                        </div>
+
+                        <div class="ui-block-c" style="width: 25%;">
+                        </div>
+                        
+                    </div>
+            </div>
+
+
+        </div>
+
+        
+    </body>
+</html>

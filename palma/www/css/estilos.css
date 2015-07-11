@@ -1,0 +1,64 @@
+
+div.green,
+h1.green{
+	background: -webkit-gradient(linear, left top, left bottom, from( #cbf6db), to( #9cedba )); 
+	background: -webkit-linear-gradient( #cbf6db, #9cedba);
+	background:    -moz-linear-gradient( #cbf6db, #9cedba);
+	background:     -ms-linear-gradient( #cbf6db, #9cedba);
+	background:      -o-linear-gradient( #cbf6db, #9cedba);
+	background:         linear-gradient( #cbf6db, #9cedba);
+	color: 			#3d9e50;
+	text-shadow: none;
+}
+
+div.main{
+	background: white;
+}
+
+#logo{
+	width: 200px;
+    height: 200px;
+}
+
+.ui-btn.green,
+.ui-btn:visited.green{
+	background: -webkit-gradient(linear, left top, left bottom, from( #cbf6db), to( #9cedba));
+	background: -webkit-linear-gradient( #cbf6db, #9cedba);
+	background:    -moz-linear-gradient( #cbf6db, #9cedba);
+	background:     -ms-linear-gradient( #cbf6db, #9cedba);
+	background:      -o-linear-gradient( #cbf6db, #9cedba);
+	background:         linear-gradient( #cbf6db, #9cedba);
+	
+	border-color:	 		#cbf6db;
+	color: 					#3d9e50;
+	text-shadow: none;
+	font-weight: bold;
+	border-radius: 0.6em;
+	box-shadow: 2px 2px 3px #dce0dd;
+
+
+}
+
+.rowReports tr {
+	background: #e8f7eb;
+	
+
+}
+
+.rowMyReports tr {
+	background:  #a0eecd;
+	border-radius: 15px;
+}
+
+
+.ui-grid-b>.ui-block-a { width: 50%; }
+.ui-grid-b>.ui-block-b { width: 15%; }
+.ui-grid-b>.ui-block-c { width: 35%; }
+
+.ui-grid-a>.ui-block-a { width: 30%;}
+.ui-grid-a>.ui-block-b { width: 70%;}
+
+.gridButton .ui-grid-b>.ui-block-a { width: 45%; }
+.gridButton .ui-grid-b>.ui-block-b { width: 10%; }
+.gridButton .ui-grid-b>.ui-block-c { width: 45%; }
+
